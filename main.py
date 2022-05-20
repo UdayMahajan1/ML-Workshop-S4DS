@@ -4,7 +4,6 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 from keras.preprocessing.image import img_to_array, load_img
-
 # Loading pre-trained model
 model = tf.keras.models.load_model('MNIST_ANN.h5')
 
